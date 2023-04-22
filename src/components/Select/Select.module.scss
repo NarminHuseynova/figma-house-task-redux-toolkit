@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border: 1px solid #dbdbdb;
+
+  .label {
+    width: fit-content;
+    white-space: nowrap;
+    padding: 12px;
+    min-width: 45px;
+    color: #191c1f;
+  }
+}
+
+.selectIcon {
+  padding: 0 15px;
+  color: #191c1f;
+}
+
+.select {
+  [class$="-container"] {
+    width: 100%;
+  }
+}

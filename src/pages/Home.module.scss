@@ -1,0 +1,45 @@
+.container {
+  display: grid;
+  padding-top: 5em;
+  grid-gap: 36px;
+  grid-template-columns: 320px 2fr;
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+
+  .filterSelectTopBorder {
+    border-top: 1px solid #f3f4f5;
+    .filterSelectContainer {
+      margin-top: 20px;
+    }
+  }
+
+  .content {
+    .advertisementContainer {
+      width: 88%;
+      .advertisementListContainer {
+        padding: 10px 0;
+        border-bottom: 1px solid #f3f4f5;
+      }
+    }
+  }
+}
+
+.button {
+  width: 100%;
+  background-color: #ec7f07;
+  border: none;
+  padding: 12px 48px;
+  border-radius: 0;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+  transition: 200ms;
+  margin-top: 15px;
+}
+
+.button:hover,
+.button:active {
+  background-color: #ff9726;
+  transition: 200ms;
+}
