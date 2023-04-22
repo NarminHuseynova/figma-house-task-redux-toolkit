@@ -1,3 +1,3 @@
 # figma-house-task-redux-toolkit
-yarn dev
+yarn dev </br>
 json-server MOCK_DATA.json --watch --port 3001
